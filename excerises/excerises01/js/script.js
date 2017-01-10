@@ -16,19 +16,24 @@ $(document).ready(function() {
 
   // We use the jQuery .click() function to "listen" for clicks on our
   // div with id "text"
+  //
+  // $('#text').click(function () {
+  //
+  //   // This is what we do when it is clicked
+  //
+  //   // Inside the function "this" refers to the thing that got clicked
+  //   // And we use .css() to set its CSS color property to ""
+  //   $(this).css('color','pink');
+  //
 
-  $('#text').click(function () {
-
-    // This is what we do when it is clicked
-
-    // Inside the function "this" refers to the thing that got clicked
-    // And we use .css() to set its CSS color property to ""
-    $(this).css('color','red');
+	$("#text").click(function(){
+			$(this).animate({right:'+=2%',opacity:'.75', padding:'+=10px',}, 10);
+		});
 
     // What would happen if we didn't use "this" and used "#text" instead?
 
     // What if there was more than one "#text" id in the HTML?
 
-  });
+
 
 });

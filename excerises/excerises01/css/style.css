@@ -7,14 +7,20 @@ Colour Change CSS
 Just some very basic styling of the text
 
 */
-
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 body {
 	margin: 50px;
 }
 
 #text {
-	font-family: Helvetica, sans-serif;
+	font-family: 'Pacifico';
 	font-size: 8em;
 	font-weight: bold;
-	color: black;
+	color: #81CCDF;
+}
+
+div{
+	margin:auto;
+
+
 }
