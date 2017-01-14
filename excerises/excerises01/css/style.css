@@ -8,6 +8,7 @@ Just some very basic styling of the text
 
 */
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
 body {
 	margin: 50px;
 }
@@ -17,6 +18,18 @@ body {
 	font-size: 8em;
 	font-weight: bold;
 	color: #81CCDF;
+}
+
+#text1{
+	
+	font-family: 'Dosis';
+	font-size: 7.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #81CCDF;
+	text-align: center;
+
+
 }
 
 div{
