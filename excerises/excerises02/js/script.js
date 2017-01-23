@@ -11,7 +11,7 @@ value of a counter variable;
 
 $(document).ready(function() {
   var counter = 10; // The counter itself, to be displayed
-  var interval = 1000; // How often to update the counter (millis)
+  var interval = 1500; // How often to update the counter (millis)
 
   // We want to update the counter each interval, so we use the
   // built in setInterval function, which calls a function
@@ -36,12 +36,12 @@ $(document).ready(function() {
         tellMe = "Who Knows";
       }
       else if (counter == 3) {
-        tellMe = "Oh Well";
+        tellMe = "Doom Comes";
       }
 
       else if (counter == 0) {
           $('#bod').addClass('bod2');
-
+          tellMe = "Trump is President"
       }
 
 
