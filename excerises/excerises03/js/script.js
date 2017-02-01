@@ -14,7 +14,7 @@ code from myself.
 const TOTAL_IMAGES = randomIntegerInRange(0,100);
 
 // We have 7 images availabe in our images/ directory
-const AVAILABLE_IMAGES = 7;
+const AVAILABLE_IMAGES = 6;
 
 // We hide the page sometimes after a delay
 const HIDE_DELAY = 2000;
@@ -31,6 +31,20 @@ $(document).ready(function() {
   // do thing probabilistically.
   //
   // First we get a random number
+
+  setInterval(function(){
+
+        $('body').append('<p>HAAAAAAAAAMSTERS</p>');
+  }
+  ,1000);
+  setInterval(function(){
+
+        $('body').append('<p>I SCREM</p>');
+  }
+  ,2500);
+
+
+
   var r = Math.random();
 
   // Now we check what it is less than to choose what to do.
@@ -110,7 +124,7 @@ function createRandomImage() {
   var imageNumber = randomIntegerInRange(0,AVAILABLE_IMAGES);
 
   // Now we create the string that points to the location of the image
-  var imageSource = "images/image" + imageNumber + ".png";
+  var imageSource = "images/ham" + imageNumber + ".jpg";
 
   // Now we generate a random x and y location for the image to display
   var imageX = randomIntegerInRange(0,$(document).width());
@@ -129,7 +143,7 @@ function createRandomImage() {
   });
 
   // Randomly rotate the image using our function
-  randomRotate(img,-30,30);
+  randomRotate(img,-10,15);
 
   // Return the image we created
   return img;
@@ -177,12 +191,3 @@ function randomIntegerInRange(min,max) {
 
   return Math.floor(Math.random() * (max - min)) + min;
 }
-<<<<<<< HEAD
-=======
-
-setInterval(function(){
-  console.log('hey ');
-      $('body').append('hey');
-}
-,1000);
->>>>>>> origin/master
