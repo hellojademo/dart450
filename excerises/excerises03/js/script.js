@@ -177,3 +177,12 @@ function randomIntegerInRange(min,max) {
 
   return Math.floor(Math.random() * (max - min)) + min;
 }
+<<<<<<< HEAD
+=======
+
+setInterval(function(){
+  console.log('hey ');
+      $('body').append('hey');
+}
+,1000);
+>>>>>>> origin/master
