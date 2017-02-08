@@ -14,30 +14,55 @@
 var dialog = [
   {
     name: "juliet",
-    line: "Romeo!"
+    line: "ARE YOU READY!"
   },
   {
     name: "romeo",
-    line: "My dear?"
+    line: "What?"
   },
   {
     name: "juliet",
-    line: "At what o'clock to-morrow shall I send to thee?"
+    line: "Its time for midterms baby"
   },
   {
     name: "romeo",
-    line: "At the hour of nine."
+    line: "Plz no"
   },
   {
     name: "juliet",
-    line: "I will not fail: 'tis twenty years till then."
+    line: "You knew this was coming, you have the syllabus????"
   },
+
+  {
+    name: "romeo",
+    line: "THATS NOT THE POINT"
+  },
+
   {
     name: "juliet",
-    line: "I have forgot why I did call thee back."
+    line: "You're caught up right?"
   },
   {
     name: "romeo",
-    line: "Touch Me"
-  }
+    line: "WHAT DO YOU THINK"
+  },
+
+
+  {
+    name: "juliet",
+    line: "oh shit"
+  },
+
+  {
+    name: "romeo",
+    line: "oh shit is RIGHT"
+  },
+  {
+    name: "juliet",
+    line: "you gunna be ok??"
+  },
+  {
+    name: "romeo",
+    line: "UHH click and find out"
+  },
 ];

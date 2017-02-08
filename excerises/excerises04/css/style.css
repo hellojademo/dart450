@@ -9,8 +9,12 @@ Styling to make the divs in the game look fun!
 
 /* Disable selection because there will be lots of clicking and
 it will look bad */
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Fira+Sans:300');
+
 body {
   user-select: none;
+  background-color:#FFDBB5;
+
 }
 
 /* Made the score huge and in the background because it looks
@@ -30,16 +34,29 @@ div{
 
 }
 #romeo {
-  color: rgba(200,50,50,0.9);
-  float: left;
+  font-family: 'Coming Soon';
+  font-size:25px;
+  /*color: #96031A;*/
+  color:#419D78;
+  float: right;
+  margin-top: 5em;
   padding: 2em;
 }
 
 #juliet {
-  color: rgba(50,200,50,0.9);
-  float: right;
-  margin-top: 2em;
+  font-family: 'Fira Sans';
+  font-size: 25px;
+  color: #C04ABC;
+  margin-left: auto;
+  margin-top: auto;
   padding: 2em;
+}
+
+p{
+  font-family: 'Coming Soon';
+  font-size:25px;
+  color:#419D78;
+
 }
 
 /* The default setup of a div is just a red square */
