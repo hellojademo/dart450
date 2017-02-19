@@ -1,5 +1,7 @@
 const TOTAL_LINES = 14;
 
+
+
 $(document).ready(function() {
 
 
@@ -24,6 +26,9 @@ $(document).ready(function() {
 
         if (counter == 7) {
           tellMe = "What will happen";
+          // (function(event) {
+          //   say("Is that what you're REALLY! wearing?");
+
         }
         else if (counter == 4) {
           tellMe = "Who Knows";
