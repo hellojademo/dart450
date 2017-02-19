@@ -1,0 +1,28 @@
+
+
+
+body{
+height:100%;
+
+
+
+}
+
+div{
+
+padding:50px;
+width:20%;
+display:inline-block;
+
+}
+
+.uno{
+
+  background-color: red;
+}
+
+
+.two {
+
+  background-color:blue;
+}
