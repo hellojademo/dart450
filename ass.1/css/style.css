@@ -10,22 +10,15 @@ height:100%;
 
 div{
 
-padding:50px;
-width:20%;
+
+with:50px;
+height:500px;
 display:inline-block;
+float:left;
 
 }
 
-.uno{
 
-  background-image: url(../img/num1.jpg)
-}
-
-
-.two {
-
-  background-image: url(../img/num2.png)
-}
 
 #counter{
 display:none;
