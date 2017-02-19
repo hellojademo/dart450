@@ -78,7 +78,7 @@ showLine();
 
 
 
-    $("#three, #eight, #nine, #ten, #eleven, #twelve, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #num3").hide();
+    $("#three, #eight, #nine, #ten, #eleven, #twelve, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #num3, #romeo, #tellme").hide();
 
     $('#butt1').click(function(){
 
