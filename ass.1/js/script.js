@@ -1,9 +1,20 @@
 const TOTAL_LINES = 14;
 
+// How long to wait between showing new lines
+const LINE_DELAY = 3000;
+
+const TOTAL_DIVS = 10;
+const INTERVAL = 1000;
+
+// An index into the array of dialog, pointing to the current line
+// to put on the screen. Starts at 0, the first line!
+var currentLine = 0;
+
 
 
 $(document).ready(function() {
 
+showLine();
 
   var counter = 10; // The counter itself, to be displayed
     var interval = 1500; // How often to update the counter (millis)
@@ -67,7 +78,7 @@ $(document).ready(function() {
 
 
 
-    $("#three").hide();
+    $("#three, #eight, #nine, #ten, #eleven, #twelve, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #num3").hide();
 
     $('#butt1').click(function(){
 
@@ -77,9 +88,22 @@ $(document).ready(function() {
 
 
 
-    $('#one').click(function(){
+    $('#seven').click(function(){
 
-           $("#three").show();
+           $("#three, #eight, #nine, #ten, #eleven, #twelve").show();
+           $("#one, #two, #four, #five, #six, #seven").hide();
+
+    $('#twelve').click(function(){
+        $("#num3, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen").show();
+          $("#three, #eight, #nine, #ten, #eleven, #twelve").hide();
+
+    });
+
+    $('#eighteen').click(function(){
+      $("#thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #num3").hide();
+         $("#one, #two, #four, #five, #six, #seven").show();
+
+    });
 
   for (var lineNum = 0; lineNum < TOTAL_LINES; lineNum++) {
 
@@ -128,8 +152,43 @@ $(document).ready(function() {
 }
       });
 
+      function showLine () {
 
+        // Set both divs to be blank
+        $('#romeo,#juliet').text('');
 
+        // Get the name of the current speaker, which is the same
+        // as the CSS id for the div to put their text in
+        var speaker = dialog[currentLine].name
+
+        // Get the line they should speak
+        var line = dialog[currentLine].line
+
+        // Set the appropriate div to have the line in it
+        $('#' + speaker).text(line);
+
+        // Increase our index into the array by one to advance the dialog
+        currentLine++;
+
+        // Check if there are still lines remaining in the array of dialog
+        if (currentLine < dialog.length) {
+          // If so, set another timeout to say the next line
+          setTimeout(showLine,LINE_DELAY);
+        }
+        // If the conditional was false, the page will stop setting timeouts
+        // and will do nothing, leaving the final line on the screen.
+
+      }
+
+      // setInterval(function () {
+      //   // And then we'll have our for loop from previously
+      //   for (var i = 0; i < TOTAL_DIVS; i++) {
+      //     // Create the div
+      //     var div = $('<div id="div' + i + '"></div>')
+      //     // Add the div to the page
+      //     $('#test').append(div);
+      //   }
+      // },INTERVAL);
 
 
 
