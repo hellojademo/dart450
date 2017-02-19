@@ -23,6 +23,7 @@ $(document).ready(function() {
 
 
       var tellMe = ""
+      var more = ""
 
         if (counter == 7) {
           tellMe = "What will happen";
@@ -31,7 +32,7 @@ $(document).ready(function() {
 
         }
         else if (counter == 4) {
-          tellMe = "Who Knows";
+          more = "Who Knows";
         }
         else if (counter == 3) {
           tellMe = "Doom Comes";
@@ -46,6 +47,7 @@ $(document).ready(function() {
 
 
         $('#tellme').text(tellMe);
+        $('#more').text(more);
 
         counter--;
         // There are multiple ways of doing this:
@@ -59,9 +61,6 @@ $(document).ready(function() {
 
 
     },interval);
-
-
-
 
 
 

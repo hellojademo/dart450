@@ -18,11 +18,16 @@ display:inline-block;
 
 .uno{
 
-  background-color: red;
+  background-image: url(../img/num1.jpg)
 }
 
 
 .two {
 
-  background-color:blue;
+  background-image: url(../img/num2.png)
+}
+
+#counter{
+display:none;
+
 }
