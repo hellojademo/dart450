@@ -3,7 +3,23 @@
 
 body{
 height:100%;
+background-color: #dab6fc;
 
+
+
+}
+.bod2{
+
+  background-color: #ddaaab;
+}
+
+.bod3{
+  background-color: #087f8c;
+
+}
+
+.bod4{
+  background-color: #dab6fc;
 
 
 }
@@ -23,18 +39,22 @@ text-align: center;
 #tellMe{
   font-family: 'Chathura';
   font-size: 50px;
+  color:#9fa0ff;
+
 
 }
 
 #juliet {
   font-family: 'Roboto';
   font-size: 30px;
+  color:#ce909c;
 
 }
 
 #romeo {
   font-family: 'Grand Hotel';
-  font-size: 20px;
+  font-size: 40px;
+  color:#5aaa95;
 
 
 }

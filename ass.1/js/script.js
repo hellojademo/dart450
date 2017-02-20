@@ -92,16 +92,19 @@ showLine();
 
            $("#three, #eight, #nine, #ten, #eleven, #twelve, #juliet").show();
            $("#one, #two, #four, #five, #six, #seven, #tellme").hide();
+           $('body').addClass('bod2')
 
     $('#twelve').click(function(){
         $("#num3, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen,#romeo").show();
           $("#three, #eight, #nine, #ten, #eleven, #twelve,#juliet").hide();
+        $('body').addClass('bod3')
 
     });
 
     $('#eighteen').click(function(){
       $("#thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #num3, #romeo").hide();
          $("#one, #two, #four, #five, #six, #seven").show();
+         $('body').addClass('bod4')
 
     });
 
