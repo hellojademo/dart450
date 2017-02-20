@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   const TOTAL_DIVS = 20;
-  const INTERVAL = 250;
+  const INTERVAL = 150;
 
   // We want to add divs over time this time...
   // So we'll use setInterval, which is like a kind of loop in time

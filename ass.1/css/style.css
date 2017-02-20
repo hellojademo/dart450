@@ -8,6 +8,44 @@ background-color: #dab6fc;
 
 
 }
+
+button{
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+ padding: 16px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ -webkit-transition-duration: 0.4s; /* Safari */
+ transition-duration: 0.4s;
+ cursor: pointer;
+ 
+}
+
+button:hover{
+
+  background-color: red;
+   color: white;
+}
+#eighteen{
+
+cursor:pointer;
+
+}
+
+#twelve{
+cursor:pointer;
+
+
+}
+
+#seven{
+cursor: pointer;
+
+}
 .bod2{
 
   background-color: #ddaaab;
