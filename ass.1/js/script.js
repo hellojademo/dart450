@@ -37,21 +37,21 @@ showLine();
       var more = ""
 
         if (counter == 7) {
-          tellMe = "What will happen";
+          tellMe = "Aesthetic over Everything";
           // (function(event) {
           //   say("Is that what you're REALLY! wearing?");
 
         }
         else if (counter == 4) {
-          more = "Who Knows";
+          tellMe = "#Artheaux";
         }
         else if (counter == 3) {
-          tellMe = "Doom Comes";
+          tellMe = "~pastel blog~";
         }
 
         else if (counter == 0) {
             $('#bod').addClass('bod2');
-            tellMe = "Trump is President"
+            tellMe = ""
         }
 
 
@@ -78,7 +78,7 @@ showLine();
 
 
 
-    $("#three, #eight, #nine, #ten, #eleven, #twelve, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #num3, #romeo, #tellme").hide();
+    $("#three, #eight, #nine, #ten, #eleven, #twelve, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #num3, #romeo, #juliet").hide();
 
     $('#butt1').click(function(){
 
@@ -90,17 +90,17 @@ showLine();
 
     $('#seven').click(function(){
 
-           $("#three, #eight, #nine, #ten, #eleven, #twelve").show();
-           $("#one, #two, #four, #five, #six, #seven").hide();
+           $("#three, #eight, #nine, #ten, #eleven, #twelve, #juliet").show();
+           $("#one, #two, #four, #five, #six, #seven, #tellme").hide();
 
     $('#twelve').click(function(){
-        $("#num3, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen").show();
-          $("#three, #eight, #nine, #ten, #eleven, #twelve").hide();
+        $("#num3, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen,#romeo").show();
+          $("#three, #eight, #nine, #ten, #eleven, #twelve,#juliet").hide();
 
     });
 
     $('#eighteen').click(function(){
-      $("#thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #num3").hide();
+      $("#thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #num3, #romeo").hide();
          $("#one, #two, #four, #five, #six, #seven").show();
 
     });

@@ -14,30 +14,33 @@
 var dialog = [
   {
     name: "juliet",
-    line: "Romeo!"
+    line: "YAAAAAASSS"
   },
   {
     name: "romeo",
-    line: "My dear?"
+    line: "Stay wild and free!"
   },
   {
     name: "juliet",
-    line: "At what o'clock to-morrow shall I send to thee?"
+    line: "#goals"
   },
   {
     name: "romeo",
-    line: "At the hour of nine."
+    line: "#living positive"
   },
   {
     name: "juliet",
-    line: "I will not fail: 'tis twenty years till then."
+    line: "Serve that look honeyyyyyy"
   },
   {
     name: "juliet",
-    line: "I have forgot why I did call thee back."
+    line: "Get that Money!!!!"
   },
   {
     name: "romeo",
-    line: "Let me stand here till thou remember it."
+    line: "Eat clean!"
   }
+
+
+  
 ];

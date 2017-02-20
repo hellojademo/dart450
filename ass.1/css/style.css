@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css?family=Chathura|Grand+Hotel|Roboto');
 
 body{
 height:100%;
@@ -15,7 +15,27 @@ width:50px;
 height:500px;
 display:inline-block;
 float:left;
-margin:10px;
+margin:20px;
+text-align: center;
+
+}
+
+#tellMe{
+  font-family: 'Chathura';
+  font-size: 50px;
+
+}
+
+#juliet {
+  font-family: 'Roboto';
+  font-size: 30px;
+
+}
+
+#romeo {
+  font-family: 'Grand Hotel';
+  font-size: 20px;
+
 
 }
 
@@ -49,7 +69,7 @@ height:100%;
 
   width:1000px;
   height:100%;
-  float:right  
+  float:right
 }
 
 
