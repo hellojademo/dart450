@@ -78,7 +78,7 @@ showLine();
 
 
 
-    $("#three, #eight, #nine, #ten, #eleven, #twelve, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #num3, #romeo, #juliet").hide();
+    $("#three, #eight, #nine, #ten, #eleven, #twelve, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #num3, #romeo, #juliet, button").hide();
 
     $('#butt1').click(function(){
 
@@ -103,8 +103,10 @@ showLine();
 
     $('#eighteen').click(function(){
       $("#thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #num3, #romeo").hide();
-         $("#one, #two, #four, #five, #six, #seven").show();
+         $("#one, #two, #four, #five, #six, #seven, button").show();
          $('body').addClass('bod4')
+
+
 
     });
 
